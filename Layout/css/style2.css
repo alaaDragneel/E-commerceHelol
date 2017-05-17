@@ -1,0 +1,414 @@
+/* *********************
+		MAIN STYLE
+********************* */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  direction: ltr;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  position: relative;
+  padding: 0px 20px;
+}
+
+.container-fluid {
+  margin: auto;
+  width: 100%;
+  position: relative;
+  padding: 0px 40px;
+  display: flex;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2e2e ;
+  outline: inherit;
+  transition: all 0.5s ease-in-out;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: #4347d2;
+  border: solid 1px #bfbfbf;
+  padding: 5px 20px;
+  border-radius: 3px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+}
+.btn:focus, .btn:hover {
+  border-color: #bfbfbf;
+  background-color: transparent;
+  color: #4347d2;
+}
+
+.offer-lable {
+  width: 30%;
+  padding: 5px 20px;
+  text-align: center;
+  background-color: #2e2e2e;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.lg-add {
+  height: 405px;
+  max-height: 405px;
+  width: 95%;
+  overflow: hidden;
+}
+.lg-add img {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+#header, #most-recent, #addvertis, #offers, #main-footer, #small-footer {
+  padding: 20px 0px;
+}
+
+/* *********************
+	 MODAL SECTION
+********************* */
+.ui.modal .content form input[type='text'], .ui.modal .content form input[type='password'],
+.ui.modal .content form input[type='email'], {
+  width: 100%;
+  border: 2px solid #bfbfbf;
+  border-radius: 3px;
+  padding: 20px 10px;
+  margin: 10px 0px;
+  height: 30px;
+  outline-color: transparent;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.ui.modal .content form input[type='text']:focus, .ui.modal .content form input[type='password']:focus {
+  border-color: #4347d2;
+}
+.ui.modal .content button {
+  background: #4267b2;
+  color: #fff;
+  border: 0px;
+  padding: 5px 10px;
+  margin: 20px 240px;
+  border-radius: 3px;
+}
+.ui.modal .content button i {
+  padding: 0px 10px;
+}
+.ui.modal .content button:hover, .ui.modal .content button:focus {
+  background: #285bc5;
+}
+.ui.menu{
+    font-size: 14px;
+}
+
+/* *********************
+  Main slider SECTION
+********************* */
+#header #header-left {
+  width: 30%;
+  display: block;
+}
+#header #header-right {
+  width: 68%;
+  display: block;
+}
+#header #header-right .owl-carousel .item {
+  max-height: 405px;
+  padding: 100px 25px;
+  overflow: hidden;
+  width: 100%;
+}
+#header #header-right .owl-carousel .item h1 {
+  color: #fff;
+  font-size: 54px;
+  font-weight: bold;
+}
+#header #header-right .owl-carousel .item p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 200px 0px 0px;
+}
+
+
+/* *********************
+ ADDVERTISMENT SECTION
+********************* */
+#addvertis .lg-add {
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+}
+
+/* *********************
+ OFFER CAROUSEL SECTION
+********************* */
+#offers .offers-carousel {
+  margin: 0px auto;
+}
+#offers .offers-carousel .item {
+  box-shadow: 5px 5px 10px #bfbfbf;
+}
+#offers .offers-carousel .item img {
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  border-top: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  border-left: solid 1px #bfbfbf;
+}
+#offers .offers-carousel .item .offer-item {
+  padding: 10px 20px;
+  border-left: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+}
+#offers .offers-carousel .item .offer-item h2 {
+  color: #4347d2;
+  padding: 0px;
+}
+
+/* *********************
+MOST RECENT CAROUSEL SEC.
+********************* */
+#most-recent .most-recent-carousel {
+  margin: 0px auto;
+}
+#most-recent .most-recent-carousel .item {
+  box-shadow: 5px 5px 10px #bfbfbf;
+}
+#most-recent .most-recent-carousel .item img {
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  border-top: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  border-left: solid 1px #bfbfbf;
+}
+#most-recent .most-recent-carousel .item .most-recent-item {
+  padding: 10px 20px;
+  border-left: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+  text-align: center;
+}
+#most-recent .most-recent-carousel .item .most-recent-item h2 {
+  color: #4347d2;
+  padding: 0px;
+}
+
+/* *********************
+	Contact us section
+********************* */
+#contact-us {
+  width: 100%;
+}
+#contact-us .form-header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin: 50px 0px;
+}
+#contact-us .form-header h1 {
+  color: #2e2e2e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#contact-us .form-header h2 {
+  color: #2e2e2e;
+  text-transform: uppercase;
+}
+#contact-us .contact-form {
+  width: 100%;
+  text-align: center;
+  margin: 50px 0px;
+}
+#contact-us .contact-form form input, #contact-us .contact-form form textarea {
+  border: 1px solid #bfbfbf;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0px;
+  outline-color: transparent;
+}
+#contact-us .contact-form form input:focus, #contact-us .contact-form form textarea:focus {
+  border: solid 1px #4347d2;
+}
+#contact-us .contact-form form input {
+  width: 25%;
+}
+#contact-us .contact-form form textarea {
+  width: 100%;
+}
+#contact-us .contact-form form input:nth-child(1) {
+  margin-right: 60px;
+}
+#contact-us .contact-form button {
+  margin-left: 15px;
+  background-color: #4347d2;
+  color: #fff;
+}
+#contact-us .contact-form button:hover, #contact-us .contact-form button:focus {
+  background-color: transparent;
+  border-color: #4347d2;
+  color: #4347d2;
+}
+
+.pic img {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+}
+.lorem {
+    width: 70%;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+
+
+/* *********************
+	FOOTER SECTION
+********************* */
+#footer {
+  display: block;
+  width: 100%;
+}
+#footer #main-footer {
+  background-color: #ededed;
+  color: #fff;
+  width: 100%;
+}
+#footer #main-footer #footer-popular-search, #footer #main-footer #footer-my-account, #footer #main-footer #footer-selling, #footer #main-footer #footer-contact-us {
+  width: 33.3333%;
+  padding: 10px 5px;
+}
+#footer #main-footer #footer-popular-search h4, #footer #main-footer #footer-my-account h4, #footer #main-footer #footer-selling h4, #footer #main-footer #footer-contact-us h4 {
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+#footer #main-footer #footer-popular-search ul, #footer #main-footer #footer-my-account ul, #footer #main-footer #footer-selling ul, #footer #main-footer #footer-contact-us ul {
+  display: block;
+}
+#footer #main-footer #footer-popular-search ul li, #footer #main-footer #footer-my-account ul li, #footer #main-footer #footer-selling ul li, #footer #main-footer #footer-contact-us ul li {
+  display: list-item;
+  list-style: none;
+  margin: 5px 0px;
+}
+#footer #main-footer #footer-popular-search ul li a, #footer #main-footer #footer-my-account ul li a, #footer #main-footer #footer-selling ul li a, #footer #main-footer #footer-contact-us ul li a {
+  color: #2e2e2e;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+#footer #main-footer #footer-popular-search ul li a:hover, #footer #main-footer #footer-popular-search ul li a:focus, #footer #main-footer #footer-my-account ul li a:hover, #footer #main-footer #footer-my-account ul li a:focus, #footer #main-footer #footer-selling ul li a:hover, #footer #main-footer #footer-selling ul li a:focus, #footer #main-footer #footer-contact-us ul li a:hover, #footer #main-footer #footer-contact-us ul li a:focus {
+  color: #4347d2;
+}
+#footer #main-footer #footer-contact-us .contact-block {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+#footer #main-footer #footer-contact-us .contact-block h4 {
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+#footer #main-footer #footer-contact-us .contact-block p {
+  color: #2e2e2e;
+  font-size: 16px;
+}
+#footer #main-footer #footer-contact-us .contact-block .phone-number {
+  color: #2e2e2e;
+  font-size: 24px;
+}
+#footer #main-footer #footer-contact-us #follow-us ul, #footer #main-footer #footer-contact-us #download-our-app ul {
+  display: block;
+}
+#footer #main-footer #footer-contact-us #follow-us ul li, #footer #main-footer #footer-contact-us #download-our-app ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+#footer #main-footer #footer-contact-us #follow-us ul li a, #footer #main-footer #footer-contact-us #download-our-app ul li a {
+  font-size: 30px;
+}
+#footer #main-footer #footer-contact-us #follow-us .fb-icon, #footer #main-footer #footer-contact-us #download-our-app .fb-icon {
+  color: #3c5a99;
+}
+#footer #main-footer #footer-contact-us #follow-us .fb-icon:hover, #footer #main-footer #footer-contact-us #follow-us .fb-icon:focus, #footer #main-footer #footer-contact-us #download-our-app .fb-icon:hover, #footer #main-footer #footer-contact-us #download-our-app .fb-icon:focus {
+  color: #2e2e2e;
+}
+#footer #main-footer #footer-contact-us #follow-us .twitter-icon, #footer #main-footer #footer-contact-us #download-our-app .twitter-icon {
+  color: #3C83AF;
+}
+#footer #main-footer #footer-contact-us #follow-us .twitter-icon:hover, #footer #main-footer #footer-contact-us #follow-us .twitter-icon:focus, #footer #main-footer #footer-contact-us #download-our-app .twitter-icon:hover, #footer #main-footer #footer-contact-us #download-our-app .twitter-icon:focus {
+  color: #2e2e2e;
+}
+#footer #main-footer #footer-contact-us #follow-us .google-icon, #footer #main-footer #footer-contact-us #download-our-app .google-icon {
+  color: #d43f2d;
+}
+#footer #main-footer #footer-contact-us #follow-us .google-icon:hover, #footer #main-footer #footer-contact-us #follow-us .google-icon:focus, #footer #main-footer #footer-contact-us #download-our-app .google-icon:hover, #footer #main-footer #footer-contact-us #download-our-app .google-icon:focus {
+  color: #2e2e2e;
+}
+#footer #main-footer #footer-contact-us #follow-us .yu-icon, #footer #main-footer #footer-contact-us #download-our-app .yu-icon {
+  color: #c0181d;
+}
+#footer #main-footer #footer-contact-us #follow-us .yu-icon:hover, #footer #main-footer #footer-contact-us #follow-us .yu-icon:focus, #footer #main-footer #footer-contact-us #download-our-app .yu-icon:hover, #footer #main-footer #footer-contact-us #download-our-app .yu-icon:focus {
+  color: #2e2e2e;
+}
+#footer #small-footer {
+  background-color: #2e2e2e;
+}
+#footer #small-footer #footer-copyright {
+  width: 40%;
+  color: #fff;
+}
+#footer #small-footer #footer-copyright h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#footer #small-footer #footer-social {
+  width: 60%;
+}
+#footer #small-footer #footer-social ul li {
+  display: inline;
+  margin: 0px 5px;
+  color: #fff;
+}
+#footer #small-footer #footer-social ul li a {
+  color: #fff;
+  font-size: 16px;
+}
+#footer #small-footer #footer-social ul li a:hover, #footer #small-footer #footer-social ul li a:focus {
+  color: #4347d2;
+}
+/*another style*/
